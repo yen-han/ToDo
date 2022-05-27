@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+html, body {     
+    color: #333232;
+    max-width: 1024px;
+    min-width: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.checked{
+    color: rgb(170, 170, 170);
+    text-decoration: line-through;
+}
+/* Darker background-color on hover */
+ul li:hover {
+    background: rgb(221, 233, 248);
+}
+.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 12px 10px 12px;
+  }
+
